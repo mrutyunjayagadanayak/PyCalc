@@ -49,7 +49,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def displayText(self):
         return self.ui.display.text()
     
-    #Function to set 00
+    #Function to set Zeroes
     def setZero(self,text):
         currentText = self.displayText().strip()
         if currentText != '' and currentText[len(currentText)-1] not in ["(", ")","+","-","*","/"]:
