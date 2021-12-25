@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets, QtCore
 import mainwindow
 ERROR_MSG = 'ERROR'
 
-
+# This is a Basic calculator in python and PyQt5
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
