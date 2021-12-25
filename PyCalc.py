@@ -33,8 +33,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.zero.clicked.connect(lambda: self.setZero('0'))
         
         self.ui.equalTo.clicked.connect(lambda: self.setDisplayText(evaluateExpression(self.displayText())))
-    def advanceSlider(self):
-        self.ui.progressBar.setValue(self.ui.progressBar.value() + 1)
     
     #Function to clear display
     def clearDisplay(self):
